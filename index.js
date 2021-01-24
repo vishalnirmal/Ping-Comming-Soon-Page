@@ -10,4 +10,5 @@ document.querySelector(".notify-button").addEventListener("click", () => {
         document.querySelector(".email").classList.remove("wrong-email");
         document.querySelector(".error").classList.remove("show-error");
     }
+    document.querySelector(".email").value = "";
 });
