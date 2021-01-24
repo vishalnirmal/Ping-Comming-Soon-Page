@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+body{
+    text-align: center;
+    margin: 5% auto;
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.info{
+    font-size: 2.25em;
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    margin: 35px auto 0;
+}
+.info span{
+    color: black;
+    font-weight: 700;
+}
+.sub-info{
+    font-size: 1em;
+    font-weight: 300;
+    color: hsl(209, 33%, 12%);
+    margin: 10px auto;
+}
+.input-section{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.input-email{
+    width: 25%;
+    margin: 10px 5px;
+}
+.email{
+    display: inline-block;
+    width: 85%;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid hsl(223, 100%, 88%);
+    outline: none;
+    font-weight: 300;
+    padding: 0 15px;
+    font-size: 0.8em;
+}
+.email::placeholder{
+    font-size: 1em;
+    color: hsl(223, 100%, 88%);
+}
+.error{
+    font-size: 0.6em;
+    margin: 5px 0 0 25px;
+    width: 85%;
+    text-align: left;
+    font-style: italic;
+    color: hsl(354, 100%, 66%);
+    visibility: hidden;
+}
+.show-error{
+    visibility: visible;
+}
+.wrong-email{
+    border: 2px solid hsl(354, 100%, 66%);
+}
+.notify-button{
+    display: inline-block;
+    width: 12%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin: 10px 5px;
+    background-color: hsl(223, 87%, 63%);
+    color: aliceblue;
+    font-size: 0.8em;
+    font-weight: 300;
+    box-shadow: 0px 2px 8px hsl(0, 0%, 59%);
+}
+.notify-button:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 4px hsl(0, 0%, 59%)
+}
+.illus-img{
+    width: 40%;
+    margin: 20px 0 35px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    width: 1em;
+    height: 1em;
+    margin: 0 10px;
+    border: 1px solid  hsl(223, 100%, 88%);
+    padding: 7px;
+    border-radius: 50%;
+    color: hsl(223, 87%, 63%);
+    font-size: 0.9em;
+}
+.icons:hover{
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+}
+.footer{
+    font-size: 0.65em;
+    color: hsl(0, 0%, 59%);
+}
