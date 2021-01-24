@@ -106,3 +106,23 @@ body{
     font-size: 0.65em;
     color: hsl(0, 0%, 59%);
 }
+@media (max-width: 900px){
+    body{
+        font-size: 15px;
+        margin: 35px 0;
+    }
+    .input-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-email{
+        width: 85%;
+    }
+    .notify-button{
+        width: 75%;
+    }
+    .illus-img{
+        width: 85%;
+    }
+}
